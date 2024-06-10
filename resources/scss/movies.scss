@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container-movies {
+    display: flex;
+    flex-wrap: wrap;
+
+    .ms_card {
+        width: calc(100% / 3);
+        padding: 10px;
+    
+        .box-img{
+            padding: 10px;
+        }
+    
+        .info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
